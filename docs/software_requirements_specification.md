@@ -5,13 +5,13 @@
 **ZoneCommander**
 
 ### **Genre:**
-Strategic, Turn-Based/Real-Time Hybrid, Tactical Management
+Strategic, Real-Time, Tactical Management
 
 ### **Inspiration:**
 Derived from the **S.T.A.L.K.E.R.** universe, ZoneCommander immerses players in the dangerous and unpredictable Zone. The player takes control of one of the factions in the Zone and must **conquer** and **dominate** by mastering diplomacy, military strategy, and economic planning.
 
 ### **Core Gameplay Concept:**
-Players assume the role of a **Faction Leader**, commanding their chosen faction’s operations across the Zone. They must balance **expansion, diplomacy, combat, economy, and survival**, while also navigating **randomized Zone events** that influence the game world.
+Players assume the role of a **Faction Leader**, commanding their chosen faction’s operations across the Zone. They must balance **expansion, diplomacy, combat, economy, and survival**, while also navigating **randomized Zone events** that influence the game world. Additionally, they must reach their faction's goal, that is derived from the faction's values and view over the Zone. 
 
 ## **2. Player Role & Responsibilities**
 As a **Faction Leader**, the player must:
@@ -53,7 +53,18 @@ The **Zone is dynamic** and will introduce challenges to both **players and AI f
 - Shortages occur when factions over-purchase specific items, affecting gear, medicine, and supplies.
 
 ## **5. Factions & Characteristics**
-Each faction has **unique playstyles, relationships, and bonuses**.
+Each faction has **unique play styles, relationships, and bonuses**.
+
+Characteristics specification: 
+Main Interest: Possible main base of a faction, which the faction leader chooses. (Refer to possible locations)
+Alliances: Defines the base relations in between factions. (Friendly/Neutral/Hostile)
+Recruitment speed: Determines how many new troops the faction leader can spawn per day. (troops/day)
+Weapon system: Determines the weapon system the faction uses. (NATO/Warsaw pact)
+Armor type: Determines the aim of the armors. (Environmental protection/Combat protection)
+Trading skills: Determines the faction's ability to sell artifacts and buy gear. (number of trade partners)
+
+TODO: Continue this
+
 
 ### **Duty**
 - **Main Interests:** Rostok, Agroprom, Jupiter, Garbage.
@@ -61,26 +72,28 @@ Each faction has **unique playstyles, relationships, and bonuses**.
 - **Recruitment Speed:** Medium.
 - **Special Ability:** **25% chance to recruit surrendered Military troops.**
 - **Trading Skills:** Poor (-1) due to only selling artifacts to Ecologists.
-- **Equipment Type:** **Soviet high-end gear.**
+- **Equipment Type:** Soviet mid/high tier weapons, more combat oriented armors.
 
 ### **Freedom**
 - **Main Interests:** Army Warehouses, Jupiter, Garbage.
 - **Alliances:** Friends with Loners, Neutral to Bandits and Clear Sky, Hostile to Duty, Military, Mercenaries, Monolith, and Ecologists.
+- **Recruitment Speed:** High.
 - **Specialty:** Increased recruitment speed.
 - **Trading:** Free trade of artifacts with Loners and Bandits.
-- **Equipment:** Prefers **NATO weapons.**
+- **Equipment:** Low and mid tier NATO weapons, perfectly balanced environmental protection and combat armors.
 
 ### **Ecologists**
 - **Main Interests:** Yantar, Jupiter, Lake Yanov.
 - **Alliances:** Friends with Duty, Neutral to Loners and Freedom, Hostile to Bandits, Mercenaries, Monolith, and Renegades.
 - **Specialty:** Advanced **scientific research and anomaly study.**
-- **Equipment:** High-tech gear, but **limited weapons.**
+- **Equipment:** Low tier NATO weapons, high environmental protection but low combat efficiency armors.
 
 ### **Loners**
 - **Main Interests:** Cordon, Garbage, Agroprom, Zaton.
 - **Alliances:** Friends with Freedom, Neutral to Duty and Ecologists, Hostile to Bandits, Mercenaries, Monolith, and Renegades.
 - **Specialty:** Versatile playstyle with **organic faction growth.**
 - **Weakness:** Lacks a **centralized command structure.**
+- **Equipment:** 
 
 ### **Bandits**
 - **Main Interests:** Dark Valley, Garbage, Limansk.

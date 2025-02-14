@@ -5,7 +5,7 @@
 **ZoneCommander**
 
 ### **Genre:**
-Strategy, Turn-Based/Real-Time Hybrid, Tactical Management
+Strategy, Real-Time, Tactical Management
 
 ### **Inspirations:**
 ZoneCommander takes inspiration from the **S.T.A.L.K.E.R.** universe, blending it with **grand strategy mechanics** and **tactical squad-based decision-making**. The game aims to offer a unique **factional warfare experience** in a dynamic and evolving game world.
@@ -44,7 +44,7 @@ The game will allow players to step into the role of a **Faction Leader**, overs
 - **Adaptive AI** that responds to player actions and game events dynamically.
 
 ### **Game Systems:**
-- **Turn-based or real-time hybrid mechanics.**
+- **Real-time hybrid mechanics.**
 - **Resource management** for equipment, personnel, and trade.
 - **Dynamic faction relations** and shifting allegiances.
 
